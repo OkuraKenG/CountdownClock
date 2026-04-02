@@ -15,7 +15,13 @@ function startProgram() {
     updateColor();
 
 
-    
+    const paramsString = window.location.search;
+    const searchParams = new URLSearchParams(paramsString);
+    launchTime = searchParams.get("time") ? new Date(Number.parseInt(searchParams.get("time"))) : null;
+
+    if (launchTime) {
+        timeStart();
+    }
 
     document.getElementById("startMe").addEventListener("click", timeStart);
 }
