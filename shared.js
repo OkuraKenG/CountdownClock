@@ -32,7 +32,8 @@ function timeStart() {
         // document.getElementById("startMe").disabled = true;
         selectedColor = document.getElementById("selectColor").value;
         document.getElementById("centerMe").setAttribute("style", "position: fixed;top: 0;left: 0;right: 0;bottom: 0;")
-        document.getElementById("eee").textContent = `Timer set to: ${launchTime}`;
+        // document.getElementById("eee").textContent = `Timer set to: ${launchTime}`;
+        console.log(launchTime);    
         document.getElementById("input").remove();
         intervalID = setInterval(timee, 500, launchTime.valueOf() + 1000); //1 sec off error
     }
