@@ -69,7 +69,7 @@ function timee(launchTime) {
         sec = `0${sec}`
     }
 
-    // document.getElementById("timer").textContent = `${days}:${hours}:${min}:${sec}`
+    document.getElementById("tabName").textContent = `${days}:${hours}:${min}:${sec}`
     days += "";
     hours += "";
     min += "";
