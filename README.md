@@ -1,3 +1,3 @@
 # CountdownClock
 Countdown Clock
-See [here](https://okaykenji.github.io/CountdownClock/).
+See [here](https://OkuraKenG.github.io/CountdownClock/).
